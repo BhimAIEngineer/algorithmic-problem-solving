@@ -10,4 +10,32 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1480-running-sum-of-1d-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1480-running-sum-of-1d-array) |
+## Math
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
+## Dynamic Programming
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
+## Minimax
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
+## Game Theory
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
+## Nim Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
+## Sprague–Grundy Theorem
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
+## Zero-Sum Game
+|  |
+| ------- |
+| [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
 <!---LeetCode Topics End-->
