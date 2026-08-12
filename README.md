@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [1470-shuffle-the-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1470-shuffle-the-array) |
 | [1480-running-sum-of-1d-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1480-running-sum-of-1d-array) |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 ## Prefix Sum
 |  |
@@ -42,9 +43,14 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
 ## Sorting
 |  |
 | ------- |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
+## Sliding Window
+|  |
+| ------- |
+| [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 <!---LeetCode Topics End-->
