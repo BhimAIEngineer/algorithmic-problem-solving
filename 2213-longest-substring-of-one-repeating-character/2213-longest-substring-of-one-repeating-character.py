@@ -14,60 +14,42 @@ class Solution:
         while size < n:
             size <<= 1
 
-        edge = [26 | (26 << 5)] * (size << 1)
-        pre = [0] * (size << 1)
-        suf = [0] * (size << 1)
-        best = [0] * (size << 1)
+        lc = [26] * (2 * size)
+        rc = [26] * (2 * size)
+        pre = [0] * (2 * size)
+        suf = [0] * (2 * size)
+        best = [0] * (2 * size)
+        ln = [0] * (2 * size)
 
         for i, c in enumerate(s):
             p = size + i
             x = ord(c) - 97
-            edge[p] = x | (x << 5)
-            pre[p] = suf[p] = best[p] = 1
+            lc[p] = rc[p] = x
+            pre[p] = suf[p] = best[p] = ln[p] = 1
 
         for p in range(size - 1, 0, -1):
             a = p << 1
             b = a | 1
 
-            if best[a] == 0:
-                edge[p] = edge[b]
-                pre[p] = pre[b]
-                suf[p] = suf[b]
-                best[p] = best[b]
-                continue
-
-            if best[b] == 0:
-                edge[p] = edge[a]
-                pre[p] = pre[a]
-                suf[p] = suf[a]
-                best[p] = best[a]
-                continue
-
-            ea = edge[a]
-            eb = edge[b]
-
-            la = ea & 31
-            ra = ea >> 5
-            lb = eb & 31
-            rb = eb >> 5
-
-            edge[p] = la | (rb << 5)
-
-            half = size >> p.bit_length()
+            ln[p] = ln[a] + ln[b]
+            lc[p] = lc[a]
+            rc[p] = rc[b]
 
             x = pre[a]
-            if x == half and ra == lb:
+            if x == ln[a] and rc[a] == lc[b]:
                 x += pre[b]
             pre[p] = x
 
             x = suf[b]
-            if x == half and ra == lb:
+            if x == ln[b] and rc[a] == lc[b]:
                 x += suf[a]
             suf[p] = x
 
-            x = best[a] if best[a] > best[b] else best[b]
+            x = best[a]
+            if best[b] > x:
+                x = best[b]
 
-            if ra == lb:
+            if rc[a] == lc[b]:
                 y = suf[a] + pre[b]
                 if y > x:
                     x = y
@@ -80,60 +62,40 @@ class Solution:
             p = size + idx
             x = ord(c) - 97
 
-            edge[p] = x | (x << 5)
-            pre[p] = suf[p] = best[p] = 1
+            lc[p] = rc[p] = x
+            pre[p] = suf[p] = best[p] = ln[p] = 1
 
             p >>= 1
-            half = 1
 
             while p:
                 a = p << 1
                 b = a | 1
 
-                if best[a] == 0:
-                    edge[p] = edge[b]
-                    pre[p] = pre[b]
-                    suf[p] = suf[b]
-                    best[p] = best[b]
+                ln[p] = ln[a] + ln[b]
+                lc[p] = lc[a]
+                rc[p] = rc[b]
 
-                elif best[b] == 0:
-                    edge[p] = edge[a]
-                    pre[p] = pre[a]
-                    suf[p] = suf[a]
-                    best[p] = best[a]
+                x = pre[a]
+                if x == ln[a] and rc[a] == lc[b]:
+                    x += pre[b]
+                pre[p] = x
 
-                else:
-                    ea = edge[a]
-                    eb = edge[b]
+                x = suf[b]
+                if x == ln[b] and rc[a] == lc[b]:
+                    x += suf[a]
+                suf[p] = x
 
-                    la = ea & 31
-                    ra = ea >> 5
-                    lb = eb & 31
-                    rb = eb >> 5
+                x = best[a]
+                if best[b] > x:
+                    x = best[b]
 
-                    edge[p] = la | (rb << 5)
+                if rc[a] == lc[b]:
+                    y = suf[a] + pre[b]
+                    if y > x:
+                        x = y
 
-                    x = pre[a]
-                    if x == half and ra == lb:
-                        x += pre[b]
-                    pre[p] = x
-
-                    x = suf[b]
-                    if x == half and ra == lb:
-                        x += suf[a]
-                    suf[p] = x
-
-                    x = best[a] if best[a] > best[b] else best[b]
-
-                    if ra == lb:
-                        y = suf[a] + pre[b]
-                        if y > x:
-                            x = y
-
-                    best[p] = x
-
+                best[p] = x
                 p >>= 1
-                half <<= 1
 
             ans.append(best[1])
 
