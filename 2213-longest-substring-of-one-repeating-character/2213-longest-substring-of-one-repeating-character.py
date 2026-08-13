@@ -9,80 +9,94 @@ class Solution:
     ) -> List[int]:
 
         n = len(s)
+        size = 1
 
-        left = [''] * (4 * n)
-        right = [''] * (4 * n)
-        prefix = [0] * (4 * n)
-        suffix = [0] * (4 * n)
-        best = [0] * (4 * n)
-        length = [0] * (4 * n)
+        while size < n:
+            size <<= 1
 
-        def merge(node):
-            l = node * 2
-            r = l + 1
+        lc = [26] * (2 * size)
+        rc = [26] * (2 * size)
+        pre = [0] * (2 * size)
+        suf = [0] * (2 * size)
+        best = [0] * (2 * size)
+        ln = [0] * (2 * size)
 
-            left[node] = left[l]
-            right[node] = right[r]
-            length[node] = length[l] + length[r]
+        for i, c in enumerate(s):
+            p = size + i
+            x = ord(c) - 97
+            lc[p] = rc[p] = x
+            pre[p] = suf[p] = best[p] = ln[p] = 1
 
-            prefix[node] = prefix[l]
-            if prefix[l] == length[l] and right[l] == left[r]:
-                prefix[node] += prefix[r]
+        for p in range(size - 1, 0, -1):
+            a = p << 1
+            b = a | 1
 
-            suffix[node] = suffix[r]
-            if suffix[r] == length[r] and right[l] == left[r]:
-                suffix[node] += suffix[l]
+            ln[p] = ln[a] + ln[b]
+            lc[p] = lc[a]
+            rc[p] = rc[b]
 
-            best[node] = max(best[l], best[r])
+            x = pre[a]
+            if x == ln[a] and rc[a] == lc[b]:
+                x += pre[b]
+            pre[p] = x
 
-            if right[l] == left[r]:
-                best[node] = max(
-                    best[node],
-                    suffix[l] + prefix[r]
-                )
+            x = suf[b]
+            if x == ln[b] and rc[a] == lc[b]:
+                x += suf[a]
+            suf[p] = x
 
-        def build(node, start, end):
-            if start == end:
-                c = s[start]
-                left[node] = c
-                right[node] = c
-                prefix[node] = 1
-                suffix[node] = 1
-                best[node] = 1
-                length[node] = 1
-                return
+            x = best[a]
+            if best[b] > x:
+                x = best[b]
 
-            mid = (start + end) // 2
+            if rc[a] == lc[b]:
+                y = suf[a] + pre[b]
+                if y > x:
+                    x = y
 
-            build(node * 2, start, mid)
-            build(node * 2 + 1, mid + 1, end)
-
-            merge(node)
-
-        def update(node, start, end, index, char):
-            if start == end:
-                left[node] = char
-                right[node] = char
-                prefix[node] = 1
-                suffix[node] = 1
-                best[node] = 1
-                return
-
-            mid = (start + end) // 2
-
-            if index <= mid:
-                update(node * 2, start, mid, index, char)
-            else:
-                update(node * 2 + 1, mid + 1, end, index, char)
-
-            merge(node)
-
-        build(1, 0, n - 1)
+            best[p] = x
 
         ans = []
 
-        for char, index in zip(queryCharacters, queryIndices):
-            update(1, 0, n - 1, index, char)
+        for c, idx in zip(queryCharacters, queryIndices):
+            p = size + idx
+            x = ord(c) - 97
+
+            lc[p] = rc[p] = x
+            pre[p] = suf[p] = best[p] = ln[p] = 1
+
+            p >>= 1
+
+            while p:
+                a = p << 1
+                b = a | 1
+
+                ln[p] = ln[a] + ln[b]
+                lc[p] = lc[a]
+                rc[p] = rc[b]
+
+                x = pre[a]
+                if x == ln[a] and rc[a] == lc[b]:
+                    x += pre[b]
+                pre[p] = x
+
+                x = suf[b]
+                if x == ln[b] and rc[a] == lc[b]:
+                    x += suf[a]
+                suf[p] = x
+
+                x = best[a]
+                if best[b] > x:
+                    x = best[b]
+
+                if rc[a] == lc[b]:
+                    y = suf[a] + pre[b]
+                    if y > x:
+                        x = y
+
+                best[p] = x
+                p >>= 1
+
             ans.append(best[1])
 
         return ans
