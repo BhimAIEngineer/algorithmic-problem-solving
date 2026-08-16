@@ -5,6 +5,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
+| [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
 | [1470-shuffle-the-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1470-shuffle-the-array) |
 | [1480-running-sum-of-1d-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1480-running-sum-of-1d-array) |
 | [2029-stone-game-ix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2029-stone-game-ix) |
@@ -21,23 +22,27 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
+| [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
 | [2029-stone-game-ix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2029-stone-game-ix) |
 ## Dynamic Programming
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
+| [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
 ## Minimax
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
+| [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
 | [2029-stone-game-ix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2029-stone-game-ix) |
 ## Game Theory
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
+| [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
 | [2029-stone-game-ix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2029-stone-game-ix) |
 ## Nim Game
@@ -53,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
+| [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
 | [2029-stone-game-ix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2029-stone-game-ix) |
 ## Hash Table
