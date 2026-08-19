@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0009-palindrome-number](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0009-palindrome-number) |
+| [0013-roman-to-integer](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0013-roman-to-integer) |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
@@ -71,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0013-roman-to-integer) |
 | [1386-cinema-seat-allocation](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1386-cinema-seat-allocation) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -88,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## String
 |  |
 | ------- |
+| [0013-roman-to-integer](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0013-roman-to-integer) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Segment Tree
