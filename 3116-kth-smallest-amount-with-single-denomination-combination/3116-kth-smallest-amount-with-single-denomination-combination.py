@@ -9,34 +9,33 @@ class Solution:
             if not any(c % x == 0 for x in useful):
                 useful.append(c)
 
-        coins = useful
-        n = len(coins)
+        n = len(useful)
+        size = 1 << n
+        lcms = [1] * size
+
+        for mask in range(1, size):
+            bit = mask & -mask
+            i = bit.bit_length() - 1
+            prev = mask ^ bit
+            lcms[mask] = lcms[prev] // gcd(lcms[prev], useful[i]) * useful[i]
 
         def count(x):
             total = 0
 
-            for mask in range(1, 1 << n):
-                lcm = 1
-                bits = 0
-
-                for i in range(n):
-                    if mask & (1 << i):
-                        bits += 1
-                        lcm = lcm // gcd(lcm, coins[i]) * coins[i]
-
-                        if lcm > x:
-                            break
+            for mask in range(1, size):
+                lcm = lcms[mask]
 
                 if lcm <= x:
-                    if bits % 2:
-                        total += x // lcm
+                    v = x // lcm
+                    if mask.bit_count() & 1:
+                        total += v
                     else:
-                        total -= x // lcm
+                        total -= v
 
             return total
 
         lo = 1
-        hi = min(coins) * k
+        hi = useful[0] * k
 
         while lo < hi:
             mid = (lo + hi) // 2
