@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0009-palindrome-number](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0013-roman-to-integer) |
+| [0067-add-binary](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0067-add-binary) |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
@@ -100,6 +101,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0014-longest-common-prefix) |
 | [0020-valid-parentheses](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0067-add-binary](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0067-add-binary) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Segment Tree
@@ -113,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Bit Manipulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0067-add-binary) |
 | [1386-cinema-seat-allocation](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1386-cinema-seat-allocation) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
@@ -164,6 +167,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Simulation
 |  |
 | ------- |
+| [0067-add-binary](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0067-add-binary) |
 | [3069-distribute-elements-into-two-arrays-i](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3069-distribute-elements-into-two-arrays-i) |
 ## Binary Search
 |  |
