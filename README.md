@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0009-palindrome-number](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0009-palindrome-number) |
 | [0013-roman-to-integer](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0013-roman-to-integer) |
 | [0067-add-binary](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0067-add-binary) |
+| [0069-sqrtx](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0069-sqrtx) |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
@@ -173,6 +174,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0035-search-insert-position) |
+| [0069-sqrtx](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0069-sqrtx) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 ## Combinatorics
 |  |
@@ -186,4 +188,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0014-longest-common-prefix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0014-longest-common-prefix) |
+## Newton's Method
+|  |
+| ------- |
+| [0069-sqrtx](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0069-sqrtx) |
 <!---LeetCode Topics End-->
