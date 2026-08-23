@@ -37,6 +37,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1563-stone-game-v) |
+| [1927-sum-game](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2029-stone-game-ix) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
@@ -62,6 +63,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
 | [1563-stone-game-v](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1563-stone-game-v) |
+| [1927-sum-game](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2029-stone-game-ix) |
 ## Nim Game
 |  |
@@ -105,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0020-valid-parentheses](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0020-valid-parentheses) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0067-add-binary](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0067-add-binary) |
+| [1927-sum-game](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1927-sum-game) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 ## Segment Tree
@@ -126,6 +129,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1386-cinema-seat-allocation](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1386-cinema-seat-allocation) |
+| [1927-sum-game](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2029-stone-game-ix) |
 ## Counting
 |  |
