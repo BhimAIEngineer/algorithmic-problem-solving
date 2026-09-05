@@ -9,6 +9,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0088-merge-sorted-array) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0136-single-number](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0136-single-number) |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
 | [1386-cinema-seat-allocation](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
@@ -154,6 +155,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0067-add-binary](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0067-add-binary) |
+| [0136-single-number](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0136-single-number) |
 | [1386-cinema-seat-allocation](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1386-cinema-seat-allocation) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3568-minimum-moves-to-clean-the-classroom) |
