@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0136-single-number](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0136-single-number) |
 | [0217-contains-duplicate](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0219-contains-duplicate-ii) |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
 | [1386-cinema-seat-allocation](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
@@ -111,6 +112,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0013-roman-to-integer](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0013-roman-to-integer) |
 | [0217-contains-duplicate](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0217-contains-duplicate) |
+| [0219-contains-duplicate-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0219-contains-duplicate-ii) |
 | [1386-cinema-seat-allocation](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1386-cinema-seat-allocation) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -129,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Sliding Window
 |  |
 | ------- |
+| [0219-contains-duplicate-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0219-contains-duplicate-ii) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
 | [2958-length-of-longest-subarray-with-at-most-k-frequency](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2958-length-of-longest-subarray-with-at-most-k-frequency) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3090-maximum-length-substring-with-two-occurrences) |
