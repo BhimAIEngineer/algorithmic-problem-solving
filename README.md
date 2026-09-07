@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0070-climbing-stairs) |
 | [0115-distinct-subsequences](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0115-distinct-subsequences) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0940-distinct-subsequences-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0940-distinct-subsequences-ii) |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
 | [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
 | [1510-stone-game-iv](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1510-stone-game-iv) |
@@ -146,6 +147,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0067-add-binary](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0067-add-binary) |
 | [0115-distinct-subsequences](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0115-distinct-subsequences) |
+| [0940-distinct-subsequences-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0940-distinct-subsequences-ii) |
 | [1927-sum-game](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1927-sum-game) |
 | [2213-longest-substring-of-one-repeating-character](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
