@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0228-summary-ranges) |
+| [0835-image-overlap](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0835-image-overlap) |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
 | [1386-cinema-seat-allocation](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
@@ -326,5 +327,6 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0835-image-overlap](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0835-image-overlap) |
 | [3568-minimum-moves-to-clean-the-classroom](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3568-minimum-moves-to-clean-the-classroom) |
 <!---LeetCode Topics End-->
