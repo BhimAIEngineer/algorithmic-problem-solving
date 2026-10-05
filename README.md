@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1872-stone-game-viii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1872-stone-game-viii) |
 | [1927-sum-game](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2029-stone-game-ix) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3524-find-x-value-of-array-i](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3524-find-x-value-of-array-i) |
@@ -205,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2213-longest-substring-of-one-repeating-character](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2213-longest-substring-of-one-repeating-character) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
 | [2904-shortest-and-lexicographically-smallest-beautiful-string](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2904-shortest-and-lexicographically-smallest-beautiful-string) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3498-reverse-degree-of-a-string](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3498-reverse-degree-of-a-string) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
@@ -236,6 +238,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2029-stone-game-ix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2029-stone-game-ix) |
 | [2091-removing-minimum-and-maximum-from-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2091-removing-minimum-and-maximum-from-array) |
 | [2472-maximum-number-of-non-overlapping-palindrome-substrings](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2472-maximum-number-of-non-overlapping-palindrome-substrings) |
+| [3014-minimum-number-of-pushes-to-type-word-i](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3014-minimum-number-of-pushes-to-type-word-i) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Counting
 |  |
