@@ -75,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1927-sum-game](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1927-sum-game) |
 | [2029-stone-game-ix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2029-stone-game-ix) |
 | [3116-kth-smallest-amount-with-single-denomination-combination](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3116-kth-smallest-amount-with-single-denomination-combination) |
+| [3345-smallest-divisible-digit-product-i](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3524-find-x-value-of-array-i](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3524-find-x-value-of-array-i) |
 | [3550-smallest-index-with-digit-sum-equal-to-index](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3550-smallest-index-with-digit-sum-equal-to-index) |
 | [3622-check-divisibility-by-digit-sum-and-product](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3622-check-divisibility-by-digit-sum-and-product) |
@@ -337,6 +338,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Enumeration
 |  |
 | ------- |
+| [3345-smallest-divisible-digit-product-i](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3345-smallest-divisible-digit-product-i) |
 | [3483-unique-3-digit-even-numbers](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3483-unique-3-digit-even-numbers) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 | [3734-lexicographically-smallest-palindromic-permutation-greater-than-target](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3734-lexicographically-smallest-palindromic-permutation-greater-than-target) |
