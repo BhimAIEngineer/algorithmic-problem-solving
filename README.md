@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
 | [1386-cinema-seat-allocation](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1386-cinema-seat-allocation) |
 | [1406-stone-game-iii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1406-stone-game-iii) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1470-shuffle-the-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1470-shuffle-the-array) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1480-running-sum-of-1d-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1480-running-sum-of-1d-array) |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0088-merge-sorted-array) |
 | [0217-contains-duplicate](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0217-contains-duplicate) |
 | [1096-brace-expansion-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1096-brace-expansion-ii) |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [2948-make-lexicographically-smallest-array-by-swapping-elements](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2948-make-lexicographically-smallest-array-by-swapping-elements) |
 | [2996-smallest-missing-integer-greater-than-sequential-prefix-sum](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2996-smallest-missing-integer-greater-than-sequential-prefix-sum) |
@@ -425,4 +427,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1114-print-in-order](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1114-print-in-order) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [1464-maximum-product-of-two-elements-in-an-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
 <!---LeetCode Topics End-->
