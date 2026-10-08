@@ -153,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0217-contains-duplicate](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0217-contains-duplicate) |
 | [0219-contains-duplicate-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0219-contains-duplicate-ii) |
 | [1096-brace-expansion-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1096-brace-expansion-ii) |
+| [1189-maximum-number-of-balloons](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1189-maximum-number-of-balloons) |
 | [1386-cinema-seat-allocation](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1386-cinema-seat-allocation) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
@@ -209,6 +210,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-remove-outermost-parentheses](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1021-remove-outermost-parentheses) |
 | [1096-brace-expansion-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1096-brace-expansion-ii) |
 | [1111-maximum-nesting-depth-of-two-valid-parentheses-strings](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1111-maximum-nesting-depth-of-two-valid-parentheses-strings) |
+| [1189-maximum-number-of-balloons](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1189-maximum-number-of-balloons) |
 | [1190-reverse-substrings-between-each-pair-of-parentheses](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1190-reverse-substrings-between-each-pair-of-parentheses) |
 | [1520-maximum-number-of-non-overlapping-substrings](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1520-maximum-number-of-non-overlapping-substrings) |
 | [1614-maximum-nesting-depth-of-the-parentheses](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1614-maximum-nesting-depth-of-the-parentheses) |
@@ -256,6 +258,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Counting
 |  |
 | ------- |
+| [1189-maximum-number-of-balloons](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1189-maximum-number-of-balloons) |
 | [2029-stone-game-ix](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/2029-stone-game-ix) |
 | [3720-lexicographically-smallest-permutation-greater-than-target](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/3720-lexicographically-smallest-permutation-greater-than-target) |
 ## Stack
