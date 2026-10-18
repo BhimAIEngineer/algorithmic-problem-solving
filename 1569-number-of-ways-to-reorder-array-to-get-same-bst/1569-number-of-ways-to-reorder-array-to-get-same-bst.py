@@ -1,26 +1,36 @@
+from typing import List
 
 class Solution:
     def numOfWays(self, nums: List[int]) -> int:
         MOD = 10**9 + 7
         n = len(nums)
-        comb = [[0] * (n + 1) for _ in range(n + 1)]
 
-        for i in range(n + 1):
-            comb[i][0] = comb[i][i] = 1
-            for j in range(1, i):
-                comb[i][j] = (comb[i - 1][j - 1] + comb[i - 1][j]) % MOD
+        fact = [1] * (n + 1)
+        inv_fact = [1] * (n + 1)
+
+        for i in range(1, n + 1):
+            fact[i] = fact[i - 1] * i % MOD
+
+        inv_fact[n] = pow(fact[n], MOD - 2, MOD)
+
+        for i in range(n, 0, -1):
+            inv_fact[i - 1] = inv_fact[i] * i % MOD
+
+        def comb(a, b):
+            return fact[a] * inv_fact[b] % MOD * inv_fact[a - b] % MOD
 
         def solve(arr):
             if len(arr) <= 2:
                 return 1
 
-            left = [x for x in arr if x < arr[0]]
-            right = [x for x in arr if x > arr[0]]
+            root = arr[0]
+            left = [x for x in arr if x < root]
+            right = [x for x in arr if x > root]
 
-            return (
-                comb[len(left) + len(right)][len(left)]
-                * solve(left) % MOD
-                * solve(right) % MOD
-            )
+            ways = comb(len(arr) - 1, len(left))
+            ways = ways * solve(left) % MOD
+            ways = ways * solve(right) % MOD
+
+            return ways
 
         return (solve(nums) - 1) % MOD
