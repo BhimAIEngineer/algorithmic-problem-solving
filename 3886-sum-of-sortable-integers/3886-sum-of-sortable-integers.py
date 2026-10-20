@@ -3,6 +3,7 @@ class Solution:
         n = len(nums)
         target = sorted(nums)
         
+        # Find all divisors of n
         divisors = []
         for i in range(1, int(n**0.5) + 1):
             if n % i == 0:
@@ -23,6 +24,7 @@ class Solution:
                         valid = False
                         break
                 else:
+                    # Check if sub is a cyclic shift of t_sub
                     drops = 0
                     drop_idx = -1
                     for j in range(k):
