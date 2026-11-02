@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0219-contains-duplicate-ii) |
 | [0228-summary-ranges](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0228-summary-ranges) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0628-maximum-product-of-three-numbers) |
 | [0835-image-overlap](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0835-image-overlap) |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
@@ -87,6 +88,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0069-sqrtx](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0070-climbing-stairs) |
 | [0453-minimum-moves-to-equal-array-elements](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0453-minimum-moves-to-equal-array-elements) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0628-maximum-product-of-three-numbers) |
 | [0836-rectangle-overlap](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0836-rectangle-overlap) |
 | [1140-stone-game-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1140-stone-game-ii) |
@@ -203,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0088-merge-sorted-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0088-merge-sorted-array) |
 | [0217-contains-duplicate](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0217-contains-duplicate) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0628-maximum-product-of-three-numbers](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/0628-maximum-product-of-three-numbers) |
 | [1096-brace-expansion-ii](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1096-brace-expansion-ii) |
 | [1464-maximum-product-of-two-elements-in-an-array](https://github.com/BhimAIEngineer/algorithmic-problem-solving/tree/master/1464-maximum-product-of-two-elements-in-an-array) |
