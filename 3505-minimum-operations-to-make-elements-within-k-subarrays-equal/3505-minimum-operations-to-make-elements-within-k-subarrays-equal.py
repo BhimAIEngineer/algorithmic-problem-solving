@@ -1,67 +1,78 @@
+import heapq
+import numpy as np
+
 class Solution:
     def minOperations(self, nums, x, k):
         n = len(nums)
-        vals = sorted(set(nums))
-        m = len(vals)
-        idx = {v: i + 1 for i, v in enumerate(vals)}
-        cnt = [0] * (m + 1)
-        sm = [0] * (m + 1)
-
-        def update(i, c, s):
-            while i <= m:
-                cnt[i] += c
-                sm[i] += s
-                i += i & -i
-
-        def prefix(i):
-            c = s = 0
-            while i > 0:
-                c += cnt[i]
-                s += sm[i]
-                i -= i & -i
-            return c, s
-
-        top = 1
-        while top * 2 <= m:
-            top *= 2
-
-        def kth(t):
-            pos = 0
-            rem = t
-            pw = top
-            while pw:
-                nxt = pos + pw
-                if nxt <= m and cnt[nxt] < rem:
-                    pos = nxt
-                    rem -= cnt[nxt]
-                pw >>= 1
-            return pos + 1
-
+        lo = []
+        hi = []
+        side = [0] * n
+        lo_n = hi_n = 0
+        lo_s = hi_s = 0
         target = (x + 1) // 2
         costs = []
-        total = 0
-        for i in range(n):
-            update(idx[nums[i]], 1, nums[i])
-            total += nums[i]
-            if i >= x:
-                old = nums[i - x]
-                update(idx[old], -1, -old)
-                total -= old
-            if i >= x - 1:
-                p = kth(target)
-                med = vals[p - 1]
-                c, s = prefix(p)
-                costs.append(med * c - s + (total - s) - med * (x - c))
+        push = heapq.heappush
+        pop = heapq.heappop
 
-        INF = float("inf")
-        prev = [0] * (n + 1)
-        for j in range(1, k + 1):
-            cur = [INF] * (n + 1)
-            for i in range(x, n + 1):
-                best = cur[i - 1]
-                cand = prev[i - x] + costs[i - x]
-                if cand < best:
-                    best = cand
-                cur[i] = best
+        for i in range(n):
+            left = i - x + 1
+            if i >= x:
+                r = i - x
+                if side[r] == 0:
+                    lo_n -= 1
+                    lo_s -= nums[r]
+                else:
+                    hi_n -= 1
+                    hi_s -= nums[r]
+
+            v = nums[i]
+            while lo and lo[0][1] < left:
+                pop(lo)
+            if lo_n > 0 and v <= -lo[0][0]:
+                push(lo, (-v, i))
+                side[i] = 0
+                lo_n += 1
+                lo_s += v
+            else:
+                push(hi, (v, i))
+                side[i] = 1
+                hi_n += 1
+                hi_s += v
+
+            while lo_n > target:
+                while lo[0][1] < left:
+                    pop(lo)
+                nv, j = pop(lo)
+                nv = -nv
+                lo_n -= 1
+                lo_s -= nv
+                push(hi, (nv, j))
+                side[j] = 1
+                hi_n += 1
+                hi_s += nv
+            while lo_n < target and hi_n > 0:
+                while hi[0][1] < left:
+                    pop(hi)
+                nv, j = pop(hi)
+                hi_n -= 1
+                hi_s -= nv
+                push(lo, (-nv, j))
+                side[j] = 0
+                lo_n += 1
+                lo_s += nv
+
+            if i >= x - 1:
+                while lo[0][1] < left:
+                    pop(lo)
+                med = -lo[0][0]
+                costs.append(med * lo_n - lo_s + hi_s - med * hi_n)
+
+        costs = np.array(costs, dtype=np.int64)
+        INF = 10 ** 18
+        prev = np.zeros(n + 1, dtype=np.int64)
+        for _ in range(k):
+            cur = np.full(n + 1, INF, dtype=np.int64)
+            cand = prev[: n - x + 1] + costs
+            cur[x:] = np.minimum.accumulate(cand)
             prev = cur
-        return prev[n]
+        return int(prev[n])
