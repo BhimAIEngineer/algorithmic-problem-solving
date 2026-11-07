@@ -5,10 +5,9 @@ class Solution:
         n = len(servers)
         m = len(tasks)
         
-        free_servers = []
-        for i in range(n):
-            heapq.heappush(free_servers, (servers[i], i))
-            
+        free_servers = [(servers[i], i) for i in range(n)]
+        heapq.heapify(free_servers)
+        
         busy_servers = []
         ans = [-1] * m
         current_time = 0
@@ -16,16 +15,13 @@ class Solution:
         for j in range(m):
             current_time = max(current_time, j)
             
+            if not free_servers:
+                current_time = max(current_time, busy_servers[0][0])
+                
             while busy_servers and busy_servers[0][0] <= current_time:
                 _, server_weight, server_index = heapq.heappop(busy_servers)
                 heapq.heappush(free_servers, (server_weight, server_index))
                 
-            if not free_servers:
-                current_time = busy_servers[0][0]
-                while busy_servers and busy_servers[0][0] <= current_time:
-                    _, server_weight, server_index = heapq.heappop(busy_servers)
-                    heapq.heappush(free_servers, (server_weight, server_index))
-                    
             server_weight, server_index = heapq.heappop(free_servers)
             ans[j] = server_index
             heapq.heappush(busy_servers, (current_time + tasks[j], server_weight, server_index))
