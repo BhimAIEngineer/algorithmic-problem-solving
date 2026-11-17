@@ -13,17 +13,18 @@ class Solution:
         for length in range(2, n + 1):
             for i in range(n - length + 1):
                 j = i + length - 1
-                sub = s[i:j+1]
                 min_changes = float('inf')
                 
                 for d in divisors[length]:
                     current_changes = 0
                     for r in range(d):
-                        group = [sub[idx] for idx in range(r, length, d)]
-                        l_g = len(group)
-                        for x in range(l_g // 2):
-                            if group[x] != group[l_g - 1 - x]:
+                        left = r
+                        right = length - 1 - ((length - 1 - r) % d)
+                        while left < right:
+                            if s[i + left] != s[i + right]:
                                 current_changes += 1
+                            left += d
+                            right -= d
                     min_changes = min(min_changes, current_changes)
                 cost[i][j] = min_changes
 
